@@ -1,0 +1,14 @@
+{
+    "watch": [
+        "src/",
+        "config/",
+        "routes/",
+        ".env"
+    ],
+    "ext": "js,json,env",
+    "ignore": [
+        "logs/*",
+        "node_modules/*"
+    ],
+    "exec": "node -r dotenv/config src/index.js"
+}
